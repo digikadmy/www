@@ -118,6 +118,39 @@
     transform: rotate(180deg);
   }
 }
+
+    .message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.blob-shape {
+  width: 30px;
+  height: 30px;
+  background: #800000; /* maroon */
+  animation: blob 6s infinite ease-in-out;
+  border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%;
+  display: inline-block;
+}
+
+@keyframes blob {
+  0% {
+    border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%;
+    transform: rotate(0deg);
+  }
+  50% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    transform: rotate(180deg);
+  }
+  100% {
+    border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%;
+    transform: rotate(360deg);
+  }
+}
+
     
   </style>
 </head>
@@ -127,7 +160,11 @@
     <!--div class="spinner"></div-->
     <div class="shape-transform"></div>
     <div class="message">YOUR DIGITAL TRANSFORMER</div>
-    <div class="shape-transform"></div>
+  </div>
+
+  <!-- WhatsApp Button -->
+  <div class="whatsapp-button-container">
+    <a href="https://wa.me/60194238011?text=Hello%20Digikad,%20I'm%20interested%20in%20your%20services." target="_blank" class="whatsapp-button">Transform Now!</a>
   </div>
 </body>
 </html>
