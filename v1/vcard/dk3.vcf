@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Muhammad;Zikry;Mr.
+FN:Muhammad Zikry
+NICKNAME:M.Zikry
+ORG:Digikad Malaysia
+TITLE:Application Specialist
+TEL;TYPE=CELL:+60194238011
+TEL;TYPE=WORK:+60194238011
+EMAIL;TYPE=INTERNET,PREF:zikry@digikad.com
+URL:https://www.digikad.com
+PHOTO;TYPE=JPEG;VALUE=URI:https://www.digikad.com/zikry.jpg
+GENDER:M
+ADR;TYPE=WORK:;;No 12 Rimba Centre;KT;21300;Kuala Nerus;Terengganu
+LABEL;TYPE=WORK:No 12 Rimba Centre\nKT, 21300 Kuala Nerus\Terengganu
+NOTE:WhatsApp: +60194238011
+END:VCARD
