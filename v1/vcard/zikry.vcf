@@ -1,0 +1,27 @@
+BEGIN:VCARD
+VERSION:3.0
+N:M;Zikry;A.;Mr.;Jr.
+FN:M Zikry
+NICKNAME:M.Zikry
+ORG:Digikad Malaysia
+TITLE:Application Specialist 1
+ROLE:Application Specialist 2
+TEL;TYPE=CELL:+60194238011
+TEL;TYPE=WORK:+60194238011
+EMAIL;TYPE=INTERNET,PREF:zikry@digikad.com
+URL:https://www.digikad.com
+PHOTO;TYPE=JPEG;VALUE=URI:https://www.digikad.com/zikry.jpg
+BDAY:1990-01-01
+ANNIVERSARY:2015-06-15
+GENDER:M
+ADR;TYPE=HOME:;;123 Elm Street;Springfield;IL;62704;USA
+LABEL;TYPE=HOME:123 Elm Street\nSpringfield, IL 62704\nUSA
+NOTE:WhatsApp: +1234567890\nAvailable 9am-5pm weekdays.
+IMPP;TYPE=Skype:skype:zikry.m
+X-SOCIALPROFILE;TYPE=facebook:https://www.facebook.com/zikry
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/zikry
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/zikry
+UID:12345678-1234-1234-1234-123456789012
+REV:20250516T120000Z
+CATEGORIES:Work,Specialist,VIP
+END:VCARD
