@@ -17,6 +17,8 @@
 
 <!--====== Favicon Icon ======-->
 <link rel="icon" href="https://www.digikad.com/favicon.png" type="image/png" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     
 <style>
     body {
@@ -468,6 +470,29 @@
     }
   }
 
+  .save-contact-btn {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 40px;
+  border: none;
+  background-color: #1ebe5d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+.save-contact-btn:hover {
+  background-color: #25D366;
+}
+
+
 </style>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
@@ -696,7 +721,10 @@ function openFullscreen() {
   <!-- Close icon (X) -->
   <i class="fas fa-times close-icon" onclick="closeQrPopup()"></i>
   <div class="animated-title">MUHAMMAD ZIKRY<br><small>Digital Namecard</small></div>
-  <img src="https://www.digikad.com/v1/img1/dk3_qr.png" alt="QR Code">
+  <img src="https://www.digikad.com/v1/img1/dk3_qr.png" alt="QR Code"><br>
+  <a href="https://www.digikad.com/v1/vcard/zikry.vcf" class="save-contact-btn" download>
+    <i class="fas fa-address-card" style="margin-right: 8px;"></i>Save Contact
+  </a>
 </div>
 
   <!-- Digikad Capsule -->
@@ -717,6 +745,8 @@ function openFullscreen() {
     document.getElementById('qrPopup').classList.remove('show');
     document.getElementById('overlay').style.display = 'none'; // Hide overlay
   }
+
+
 </script>
 
 </body>
