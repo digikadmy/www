@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Afandi;Mr.;Zhariff
+FN:Zhariff Afandi
+NICKNAME:Zhariff
+ORG:Good Will Guys Sdn. Bhd.
+TITLE:Co Founder
+TEL;TYPE=CELL:+60127773601
+TEL;TYPE=WORK:+60127773601
+EMAIL;TYPE=INTERNET,PREF:zhariff@gmail.com
+URL:https://www.zhariff.com
+GENDER:M
+ADR;TYPE=WORK:;;Suite 13A, Level 13 Menara Dato Onn;Jalan Tun Ismail;50480;Wilayah Persekutuan; Kuala Lumpur
+LABEL;TYPE=WORK:Suite 13A, Level 13 Menara Dato Onn\nJalan Tun Ismail, 50480 Wilayah Persekutuan\Kuala Lumpur
+NOTE:WhatsApp: +60127773601
+END:VCARD
