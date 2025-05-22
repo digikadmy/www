@@ -1,0 +1,25 @@
+/*
+  <meta property="og:image" content="img/poster1_b.png" /> <!-- CHANGE PATH -->
+  <meta property="og:url" content="poster1.html" /> <!-- CHANGE PATH -->
+  <link rel="stylesheet" href="css/dk.css"> <!-- CHANGE PATH -->
+  <link rel="stylesheet" href="css/img.css"> <!-- CHANGE PATH -->
+  <img src="img/poster1_f.png" alt="Front"> <!-- CHANGE PATH --> 
+  <img src="img/poster1_b.png" alt="Back"> <!-- CHANGE PATH --> 
+  <img src="img/poster1_qr.png" alt="QR Code"><br> <!-- CHANGE PATH -->
+  <a href="vcard/dk3.vcf" class="save-contact-btn" download> <!-- CHANGE PATH -->
+  <script src="js/dk.js"></script> <!-- CHANGE PATH -->
+*/
+
+
+.img_front {
+  background-image: url("../img/poster1_f.png");
+}
+
+.img_back {
+  background-image: url("../img/poster1_b.png");
+}
+
+.img_qr {
+  background-image: url("../img/poster1_qr.png");
+}
+
