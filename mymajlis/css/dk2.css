@@ -561,5 +561,28 @@
   background: #fceabb;
 }
 
+.event-card {
+  position: relative;
+  border: 0px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.event-finished-banner {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  background: #d9534f; /* Bootstrap red */
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 6px 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 14px;
+}
 
 
